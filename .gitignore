@@ -5,3 +5,7 @@
 *.swp
 *.bbl
 *.blg
+*.bcf
+*.fls
+*.run.xml
+*.fdb_latexmk
