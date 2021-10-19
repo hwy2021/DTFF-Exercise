@@ -1,0 +1,72 @@
+\documentclass{article}
+
+\usepackage[
+    backend=biber,
+    style=alphabetic,
+    sorting=ynt,
+    url=false,
+    doi=false,
+    eprint=false]{biblatex}
+
+\addbibresource{refs.bib}
+
+\usepackage{authblk}
+\usepackage{blindtext}
+\usepackage{booktabs}
+\usepackage[capposition=top]{floatrow}
+\usepackage{graphicx}
+\usepackage{threeparttable}
+
+
+\title{Exercises 4-10}
+\author[1]{Wenying Huang\thanks{DTFF HS2021}}
+\affil[1]{University of Zurich}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    \blindtext
+\end{abstract}
+\newpage
+
+\section{Two pages of dummy text}
+\blindtext[7]
+
+\newpage
+
+\section{Two citations}
+Paper 1~\cite{kozlowski2020tail}. Paper 2~\cite{gormsen2020coronavirus}.
+
+\section{Figure and Table}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{800px-UZH-logo.png}
+\caption{Logo of University of Zurich}
+\floatfoot{*footnote of the figure.}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{Test Table}
+% \vspace*{0.8em}
+\begin{threeparttable}
+\begin{tabular}{ll}
+\toprule
+First Column & Second Column \\
+\midrule
+111 & 222 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item *footnote of the table.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+% clearpage is better than newpage, before reference.
+\clearpage
+\printbibliography
+
+\end{document}
