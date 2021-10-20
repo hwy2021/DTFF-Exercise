@@ -9,3 +9,7 @@
 *.fls
 *.run.xml
 *.fdb_latexmk
+*.nav
+*.out
+*.snm
+*.toc
