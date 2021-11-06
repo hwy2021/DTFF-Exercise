@@ -1,4 +1,7 @@
+# 02_version_control
 ./02_version_control/Wenying/Data/
+
+# 04_writing_with_latex
 *.aux
 *.log
 *.gz
@@ -13,3 +16,6 @@
 *.out
 *.snm
 *.toc
+
+# 06_data_management
+**/__pycache__/
