@@ -1,0 +1,2 @@
+Create an environment variable RESEARCH_PATH:
+cd %RESEARCH_PATH%
