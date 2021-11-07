@@ -12,7 +12,7 @@ Three backup root URLs:
 
 > What is the endpoint to retrieve klines (open-high-low-close data) for a specific cryptocurrency?
 
-The endpoint is: `/api/v3/klines`.
+The endpoint is: `/api/v3/klines`
 
 > Specify a request string to retrieve 75 observations of klines data for BTCUSDT since 2021-06-15.
 
