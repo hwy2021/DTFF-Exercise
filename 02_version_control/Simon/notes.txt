@@ -1,0 +1,4 @@
+I don't know how to configure the submodule function, for the gitrepo-in-gitrepo.
+But as it also works with links, here's the link to my original repo:
+
+https://github.com/PimpFriedRice/DTFF
