@@ -45,6 +45,13 @@ def get_tips(slot):
     print(f'There are {customersNumber} customers in {slot}, with total bill of {totalBill:.2f}, total tip of {totalTip:.2f}, average tip rate {tipRate*100:.2f}%.')
     conn.close()
 
+# API for flight data
+def get_flight_data():
+    cursor, conn = connect.connect_DB()
+    cursor = conn.execute("SELECT * FROM flights")
+    rows = cursor.fetchall()
+    conn.close()
+    return rows
 
 def main():
     get_flight_info(1955)
