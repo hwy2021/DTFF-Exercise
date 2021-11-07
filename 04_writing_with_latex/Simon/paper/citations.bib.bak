@@ -1,0 +1,23 @@
+% Encoding: UTF-8
+
+@Article{Gormsen2020,
+  author    = {Niels Joachim Gormsen and Ralph S. J. Koijen},
+  title     = {Coronavirus: Impact on Stock Prices and Growth Expectations},
+  year      = {2020},
+  doi       = {10.2139/ssrn.3555917},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Kozlowski2020,
+  author    = {Julian Kozlowski and Laura Veldkamp and Venky Venkateswaran},
+  title     = {The Tail That Wags the Economy: Beliefs and Persistent Stagnation},
+  year      = {2020},
+  month     = {aug},
+  number    = {8},
+  pages     = {2839--2879},
+  volume    = {128},
+  doi       = {10.1086/707735},
+  publisher = {University of Chicago Press},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
